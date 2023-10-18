@@ -1,0 +1,27 @@
+.contant{
+    padding: 20px;
+    background-color: blueviolet;
+    transition-property: all;
+    transition-duration: 2s;
+    /* transition-timing-function: ease; */
+    /* transition-timing-function: ease-in; */
+    transition-timing-function: linear;
+    width: 500px;
+}
+.contant:hover{
+    transform: translate(100px,100px);
+    /* transform: rotateY(90deg); */
+    width: 500px;
+}
+a{
+    font-size: 50px;
+}
+a:hover{
+    color: crimson;
+}
+a:link{
+    color: darkgreen;
+}
+a:active{
+    color: mediumvioletred;
+}

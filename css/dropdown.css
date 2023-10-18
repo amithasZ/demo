@@ -1,0 +1,37 @@
+.drop-name{
+    padding:10px;
+    width: 100px;
+    background-color:white;
+    color: rgb(53, 53, 228);
+    font-weight: bold;
+    text-align: center;
+}
+.drop-content{
+    position: absolute;
+    left:-40px;
+    top: 25px;
+    display: none;
+}
+.drop-content ul{
+    list-style:none;
+}
+.drop-content li{
+    padding:10px;
+    width: 100px;
+    color: rgb(61, 61, 61);
+    border-bottom:.5px solid gray;
+    background-color: white;
+}
+.drop-content li:hover{
+    background-color: whitesmoke;
+}
+.dropdown{
+    display:inline-block;
+    position:relative;
+}
+.dropdown:hover .drop-content{
+    display: block;
+}
+body{
+    background-color: aquamarine;
+}

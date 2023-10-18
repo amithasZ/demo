@@ -1,0 +1,21 @@
+.navbar ul{
+    list-style: none;
+    background-color: rgb(20, 21, 21);
+    overflow: hidden;
+}
+.navbar li{
+    float: left;
+    margin-left: 20px;
+    padding: 10px;
+}
+.navbar a{
+    text-decoration: none;
+    color: blue;
+    font-weight: 600;
+} 
+.navbar li:hover {
+    background-color: aliceblue;
+}
+.navbar li:hover a{
+    color: rgb(151, 32, 32)
+}

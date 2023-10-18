@@ -1,0 +1,12 @@
+.container{
+    width: 400px;
+    height: 300px;
+    border: 1px solid gray;
+    overflow: scroll;
+}
+.container:hover{
+    background-color: aquamarine;
+}
+.container::-webkit-scrollbar{
+    display: none;
+}

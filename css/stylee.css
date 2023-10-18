@@ -1,0 +1,22 @@
+.container{
+    height: 200px;
+    background-color: blue;
+    /* border-width: 4px;
+    border-style: solid;
+    border-color: red; */
+    border: 10px solid red;
+    border-top-width: 1px;
+}
+h1{
+    border-left: 10px solid  rgb(56, 143, 56);
+}
+.container{
+    width: 60px;
+    height: 90px;
+    border-top: 4px solid violet;
+    border-left: 4px solid blue;
+    border-bottom: 4px green;
+    border-right: 4px solid red;
+    /* border-radius:  20px 60px 90px 0px; */
+    border-radius: 50%;
+}

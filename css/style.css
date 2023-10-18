@@ -1,0 +1,15 @@
+body{
+    /* background-color: lightcyan;
+    background-image: url(stock-photo-142984111.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right bottom; */
+    background:lightblue url(stock-photo-142984111.jpg) no-repeat right bottom fixed;
+
+}
+h1{
+    color:beige;
+    background-color: blue;
+    /* display: inline; */
+}
